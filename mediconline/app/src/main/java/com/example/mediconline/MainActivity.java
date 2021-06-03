@@ -1,0 +1,45 @@
+package com.example.mediconline;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.util.Log;
+import android.widget.EditText;
+import android.widget.Button;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity {
+    private EditText txtNombre, txtApellido, txtUsuario, txtPasswd;
+    private Button btnLogin, btnRegistro;
+    private Object View;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        txtUsuario = (EditText) findViewById(R.id.txtusuario);
+        txtPasswd = (EditText) findViewById(R.id.txtPasswd);
+
+        btnLogin = (Button) findViewById(R.id.btnLogin);
+        btnRegistro = (Button) findViewById(R.id.btnRegistro);
+
+        /*public void registrase(View view){
+            Intent intent = new Intent(this, formulario_registro.class);
+            startActivity(intent);
+        }*/
+
+       /* public void login(View view){
+            Toast toast=Toast.makeText(getApplicationContext(), "Usted no cuenta con un usuario", Toast.LENGTH_LONG);
+            toast.show();
+        }*/
+
+        /*public void onClick(View v){
+            if(v.getId() == R.id.btnLogin){
+                Log.d("mensaje","ingreso");
+            }else if(v.getId() == R.id.btnRegistro){
+
+            }
+        }*/
+    }
+}
