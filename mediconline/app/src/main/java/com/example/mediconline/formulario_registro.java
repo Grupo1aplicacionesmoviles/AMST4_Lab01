@@ -28,7 +28,7 @@ public class formulario_registro extends AppCompatActivity {
                     description, importance);
             NotificationCompat.Builder builder =
                     new NotificationCompat.Builder(this,id)
-                            //.setSmallIcon(R.drawable.aa)
+                            .setSmallIcon(R.drawable.aa)
                             .setContentTitle("Se ha registrado con exito")
                             .setContentText("Revise su correo electronico en los proximos 2 dias")
                                             .setAutoCancel(true)
