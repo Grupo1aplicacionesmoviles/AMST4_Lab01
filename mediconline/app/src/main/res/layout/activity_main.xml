@@ -16,8 +16,7 @@
             android:id="@+id/txtUsuario"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="Usuario"
-            ></EditText>
+            android:hint="Usuario" />
 
         <EditText
             android:id="@+id/txtPasswd"

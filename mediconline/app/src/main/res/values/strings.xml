@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">mediconline</string>
+    <string name="peso">Peso:</string>
+    <string name="email">Email:</string>
+    <string name="usuario">Usuario:</string>
+    <string name="clave">Clave:</string>
+    <string name="registrar">Registrar</string>
+    <string name="altura">Altura:</string>
+    <string name="edad">Edad:</string>
+    <string name="cedula">Cedula:</string>
+    <string name="apellidos">Apellidos:</string>
+    <string name="nombres">Nombres:</string>
 </resources>
